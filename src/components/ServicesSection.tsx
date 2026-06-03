@@ -8,11 +8,11 @@ export default function ServicesSection() {
   return (
     <section className="section services-section" id="services">
       <div className="container">
-        <SectionHeading
-          eyebrow="Services"
-          title="Exterior cleaning for the surfaces people notice first."
-          text="Calahan Pressure Washing LLC handles pressure washing and soft washing for homes, concrete, decks, fences, driveways, and commercial properties around Bloomington."
-        />
+       <SectionHeading
+  eyebrow="Services"
+  title="Residential and commercial exterior cleaning."
+  text="Calahan Pressure Washing LLC handles pressure washing and soft washing for homes, businesses, concrete, decks, fences, driveways, and other exterior surfaces around Bicknell, Bloomington, Vincennes, and surrounding areas."
+/>
 
         <div className="services-grid">
           {siteData.services.map((service, index) => (

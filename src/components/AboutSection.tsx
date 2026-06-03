@@ -22,11 +22,11 @@ export default function AboutSection() {
         </FadeIn>
 
         <FadeIn className="about-copy" delay={0.1}>
-          <SectionHeading
-            eyebrow="About"
-            title="A cleaner, sharper look for homes and properties."
-            text="Calahan Pressure Washing LLC is a Bloomington area exterior cleaning service focused on pressure washing, soft washing, and property cleaning work. The goal is simple: make the outside of the property look better and make it easy for people to get an estimate."
-          />
+        <SectionHeading
+  eyebrow="About"
+  title="Based in Bicknell and built for local property cleaning."
+  text="Calahan Pressure Washing LLC provides residential and commercial pressure washing and soft washing services for homes, businesses, and exterior surfaces. The service area reaches surrounding communities including Bloomington and Vincennes, with free estimates available."
+/>
 
           <div className="about-points">
             <div className="about-point">
@@ -54,11 +54,11 @@ export default function AboutSection() {
             <div className="about-point">
               <FaLocationDot />
               <div>
-                <h3>{siteData.contact.location}</h3>
-                <p>
-                  Local service with phone, email, and message options for fast
-                  estimate requests.
-                </p>
+               <h3>Bicknell, Bloomington, Vincennes & surrounding areas</h3>
+<p>
+  Based out of Bicknell and serving nearby areas within about an hour,
+  with free estimates available by phone, email, or quote form.
+</p>
               </div>
             </div>
           </div>

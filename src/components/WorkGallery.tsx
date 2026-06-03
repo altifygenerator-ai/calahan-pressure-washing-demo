@@ -41,10 +41,10 @@ export default function WorkGallery() {
       <div className="container">
         <div className="gallery-heading-row">
           <SectionHeading
-            eyebrow="Recent Work"
-            title="Real exterior cleaning work from local properties."
-            text="A clean site should show the work clearly. These photos give visitors a quick look at the type of house washing, siding, porch, deck, and surface cleaning Calahan Pressure Washing LLC handles."
-          />
+  eyebrow="Recent Work"
+  title="Real exterior cleaning work from local properties."
+  text="These photos give visitors a quick look at the type of residential exterior cleaning, siding, porch, deck, concrete, and property wash work Calahan Pressure Washing LLC handles."
+/>
 
           <div className="gallery-badge">
             <FaImages />

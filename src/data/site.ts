@@ -3,7 +3,7 @@ import type { SiteData } from "@/types/site";
 export const siteData: SiteData = {
   name: "Calahan Pressure Washing LLC",
   shortName: "Calahan",
-  tagline: "Pressure and Soft Washing • Free Estimates",
+  tagline: "Residential & Commercial Pressure Washing • Free Estimates",
 
   nav: [
     { label: "Services", href: "#services" },
@@ -16,15 +16,15 @@ export const siteData: SiteData = {
     phone: "18124449045",
     phoneDisplay: "(812) 444-9045",
     email: "herbiecalahan92@gmail.com",
-    location: "Bloomington, IN 47401",
+    location: "Based in Bicknell, IN",
     facebookLabel: "Calahan pressure washing LLC",
   },
 
   hero: {
-    eyebrow: "Bloomington, Indiana Pressure Washing",
-    title: "Pressure Washing & Soft Washing for Homes and Properties",
+    eyebrow: "Residential & Commercial Pressure Washing",
+    title: "Pressure Washing & Soft Washing for Homes and Businesses",
     text:
-      "Driveways, concrete, decks, fences, siding, and commercial properties cleaned with a reliable local service. Free estimates available.",
+      "Based out of Bicknell and serving surrounding areas including Bloomington and Vincennes. Calahan Pressure Washing LLC handles homes, driveways, concrete, decks, fences, and commercial properties with free estimates available.",
     primaryCta: "Call for a Free Estimate",
     secondaryCta: "View Services",
     backgroundImage: "/images/hero.jpg",
@@ -33,7 +33,7 @@ export const siteData: SiteData = {
   trust: [
     {
       label: "Free Estimates",
-      text: "Simple quotes for exterior cleaning jobs.",
+      text: "Call, email, or send the quote form details to get started.",
     },
     {
       label: "Starting at $200",
@@ -41,25 +41,31 @@ export const siteData: SiteData = {
     },
     {
       label: "Residential & Commercial",
-      text: "Homes, concrete, decks, fences, and commercial properties.",
+      text: "Exterior cleaning for homes, businesses, and local properties.",
     },
     {
-      label: "Bloomington Area",
-      text: "Serving Bloomington, Indiana and nearby property owners.",
+      label: "Bicknell Based",
+      text: "Serving surrounding areas including Bloomington and Vincennes.",
     },
   ],
 
   services: [
     {
-      title: "House Washing",
+      title: "Residential Pressure Washing",
       text:
-        "Exterior house washing for siding, porches, trim, and outdoor surfaces that need a clean refresh.",
+        "Exterior cleaning for homes, siding, porches, patios, walkways, and outdoor surfaces that need a cleaner look.",
       image: "/images/service-house.jpg",
+    },
+    {
+      title: "Commercial Pressure Washing",
+      text:
+        "Pressure washing and exterior cleaning for commercial properties that need a cleaner, sharper first impression.",
+      image: "/images/service-commercial.jpg",
     },
     {
       title: "Driveways & Concrete",
       text:
-        "Pressure washing for concrete, driveways, walkways, patios, and other hard surfaces around the property.",
+        "Pressure washing for driveways, concrete, sidewalks, patios, and other hard surfaces around the property.",
       image: "/images/service-concrete.jpg",
     },
     {
@@ -68,18 +74,12 @@ export const siteData: SiteData = {
         "Cleaning for decks, fences, and outdoor areas where buildup can make a property look older than it is.",
       image: "/images/service-deck.jpg",
     },
-    {
-      title: "Commercial Properties",
-      text:
-        "Exterior cleaning for commercial properties that need a cleaner, sharper first impression.",
-      image: "/images/service-commercial.jpg",
-    },
   ],
 
   gallery: [
     {
       src: "/images/work-1.jpg",
-      alt: "House exterior pressure washing work in Bloomington Indiana",
+      alt: "House exterior pressure washing work by Calahan Pressure Washing LLC",
     },
     {
       src: "/images/work-2.jpg",
@@ -103,7 +103,7 @@ export const siteData: SiteData = {
     },
     {
       src: "/images/work-7.jpg",
-      alt: "Bloomington area pressure washing work",
+      alt: "Pressure washing work in southern Indiana",
     },
     {
       src: "/images/work-8.jpg",
@@ -116,13 +116,13 @@ export const siteData: SiteData = {
       label: "House Cleaning",
       value: "Starting at $200",
       text:
-        "Pricing shown by the business for house cleaning. Final pricing depends on the property and job details.",
+        "Pricing shown by the business for house cleaning. Final pricing depends on the property, surface type, and job details.",
     },
     {
       label: "Estimates",
       value: "Free",
       text:
-        "Call, message, or send the quote form details to get started with a free estimate.",
+        "Call, email, or send the quote form details to get started with a free estimate.",
     },
   ],
 };

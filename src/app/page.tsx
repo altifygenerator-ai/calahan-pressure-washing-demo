@@ -8,7 +8,7 @@ import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
-
+import ServiceAreaSection from "@/components/ServiceAreaSection";
 export default function Home() {
   return (
     <>
@@ -19,6 +19,7 @@ export default function Home() {
         <ServicesSection />
         <WorkGallery />
         <PricingSection />
+        <ServiceAreaSection />
         <AboutSection />
         <ContactSection />
         <FinalCTA />
